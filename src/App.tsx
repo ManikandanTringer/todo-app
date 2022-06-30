@@ -22,7 +22,7 @@ function App() {
   return (
     <div className="App"> 
       <header className="App-header">
-       Things To Do
+       <h2>Things To Do</h2>
       </header>
       <ToDo todo={todo} setTodo={setTodo} handleAdd={handleAdd} />
       <ToDoList todos={todos} setTodos={setTodos} /> 
